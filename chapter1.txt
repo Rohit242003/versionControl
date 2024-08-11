@@ -1,0 +1,23 @@
+******** gitHub version control *********
+
+1. Use touch to create file in git bash
+2. Use git init to intialize the git version
+3. Use git status to view the status of the files
+4. To add file use git add (filename) command
+5. TO specify initial commit use git commit -m "(message)"
+6. To view the commit we can use git log command
+7. Use git add . to add multiple files in git
+8. Using git init we specify the working directory
+9. befroe going back to the previous version need to check what difference we made in repo for that we can use git diff (filename)
+10. To go back to the previous version of file use git checkout (filename) command
+11. To add our version control to the remote location such as gitHub we have to follow following step
+    a. Create a repo on gitHub
+    b. Copy the link of the repo
+    c. Use git remote add origin (link) command locally
+    d. Use git push -u origin main
+
+******* Use of gitIgnore files ********
+
+1. use touch .gitignore to create the file
+2. To remove all the files from repo use "git rm --chached -r ." 
+3. Specify the name of the files in the .gitignore file 
